@@ -23,6 +23,20 @@
 }
 </style>
 
+[Jiwoo Ryu¹](https://sites.google.com/view/judejiwoo) &emsp;
+[Hao-Wen Dong²](https://salu133445.github.io/) &emsp;
+[Jongmin Jung¹](https://sakem.in/) &emsp;
+[Dasaem Jeong¹](https://jdasam.github.io/maler/) &emsp;
+¹SOGANG UNIVERSITY, ²UNIVERSITY OF CALIFORNIA SAN DIEGO
+{:.center}
+
+{% include icon_link.html text="paper" icon=site.icons.paper href="https://arxiv.org/abs/2408.01180.pdf" %} &emsp;
+{% include icon_link.html text="video" icon=site.icons.video href="https://youtu.be/btP0JrSLY1E" %} &emsp;
+{% include icon_link.html text="code" icon=site.icons.code href="https://github.com/JudeJiwoo/nmt" %} &emsp;
+{:.center}
+
+{% include youtube_player.html id="7g0F0lMs18Y" %}
+
 <hr style="border: double 1.35px silver;">
 ## Content
 ---
