@@ -36,7 +36,7 @@
 {% include icon_link.html text="code" icon=site.icons.code href="https://github.com/JudeJiwoo/nmt" %} &emsp;
 {:.center}
 
-{% include youtube_player.html id="7g0F0lMs18Y" %}
+<!-- {% include youtube_player.html id="7g0F0lMs18Y" %} -->
 
 <hr style="border: double 1.35px silver;">
 ## Content
@@ -53,13 +53,13 @@
 
 ## NMT Architecture {#architecture}
 ---
-<img src="img/main_fig02.PNG" style="border: 2px solid grey">
+<img src="img/main_fig02.png" style="border: 2px solid grey">
 
 Diagram of two prediction methods in sub-decoder.
 {:.center .larger}
 > __Note__: Our proposed Nested Music Transformer (NMT) predicts sub-tokens in a fully-sequential manner.
 
-<img src="img/subdecoder_fig02.PNG" style="border: 2px solid grey" class="wider">
+<img src="img/subdecoder_fig02.png" style="border: 2px solid grey" class="wider">
 
 Illustrations of the proposed Nested Music Transformer (NMT) and other sub-decoder structures
 {:.center .larger}
@@ -67,7 +67,7 @@ Illustrations of the proposed Nested Music Transformer (NMT) and other sub-decod
 
 ## Encoding Comparison {#Encoding}
 ---
-<img src="img/encoding_fig02.PNG" style="border: 2px solid grey">
+<img src="img/encoding_fig02.png" style="border: 2px solid grey">
 
 An example illustrating the proposed representations, note-based (NB) encoding (c) NB-Metric1st and (d) NB-Pitch1st, alongside REMI and Compound word. 
 {:.center .larger}
