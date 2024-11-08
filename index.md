@@ -27,6 +27,7 @@
 [Hao-Wen Dong²](https://salu133445.github.io/) &emsp;
 [Jongmin Jung¹](https://sakem.in/) &emsp;
 [Dasaem Jeong¹](https://jdasam.github.io/maler/) &emsp;
+<br>
 ¹SOGANG UNIVERSITY, ²UNIVERSITY OF CALIFORNIA SAN DIEGO
 {:.center}
 
@@ -52,43 +53,43 @@
 
 ## NMT Architecture {#architecture}
 ---
-<img src="img/demo_teaser_fig.PNG" style="border: 2px solid grey">
+<img src="img/main_fig02.PNG" style="border: 2px solid grey">
 
-Diagram of different prediction method in subdecoder.
+Diagram of two prediction methods in sub-decoder.
 {:.center .larger}
-> __Note__: Our proposed Nested Music Transformer (NMT) predicts each feature in a fully-sequential manner, which is different from how the previous decoding architectures work.
+> __Note__: Our proposed Nested Music Transformer (NMT) predicts sub-tokens in a fully-sequential manner.
 
-<img src="img/demo_subdecoder_fig.PNG" style="border: 2px solid grey" class="wider">
+<img src="img/subdecoder_fig02.PNG" style="border: 2px solid grey" class="wider">
 
- Illustrations of the proposed Nested Music Transformer (NMT) and other sub-decoder structures
+Illustrations of the proposed Nested Music Transformer (NMT) and other sub-decoder structures
 {:.center .larger}
 <br>
 
 ## Encoding Comparison {#Encoding}
 ---
-<img src="img/demo_encoding_fig.PNG" style="border: 2px solid grey">
+<img src="img/encoding_fig02.PNG" style="border: 2px solid grey">
 
-An example illustrating proposed representations, note-based encoding (c) NB-Type1st and (d) NB-Pitch1st, alongside REMI and Compound word for the sake of comparison.
+An example illustrating the proposed representations, note-based (NB) encoding (c) NB-Metric1st and (d) NB-Pitch1st, alongside REMI and Compound word. 
 {:.center .larger}
 
-> __Note__: All the encodings represent the same piece of music by utilizing 8 features. Specifically, REMI and Compound word weren’t designed for multi-instrument pieces. That’s why we renamed the encoding with “+I” to (a) and (b). However, the main ideas for these two encoding is reserved for (a) and (b). The piece has K number of notes in the representation. If we used F number of different features for the encoding, the scale factors between REMI;r, Compound word;c can be expressed as an inequality like followings: 1 < c <= 2  < r < F. c can reach up to 2 in the case where every notes are positioned differently (no simultaneous note played at the same time).
+> __Note__:  All encodings represent the same piece of music by using five musical features. Specifically, REMI and Compound word were not originally designed for multi-instrument pieces, which is why we renamed the encodings with “+I” to (a) and (b). Here, k denotes the number of notes and sequence length for NB, while r and c represent the ratios for REMI and Compound word, with values greater than 1.
 
 <hr style="border: double 1.35px silver;">
 
 ## Results {#Tables}
 ---
-<img src="tables/dataset_analysis.PNG" style="border: 2px solid grey">
+<img src="tables/dataset_analysis.PNG" style="width:60%; border: 2px solid grey">
 The statistics of the dataset used in the experiments.
 {:.center .larger}
 <br>
 
 ---
-<img src="tables/param_dataset.PNG" style="border: 2px solid grey">
+<img src="tables/param_dataset.PNG" style="width:50%; border: 2px solid grey">
 The hyperparameters used in the experiments for each dataset.
 {:.center .larger}
 
 ---
-<img src="tables/main_table.PNG" style="border: 2px solid grey">
+<img src="tables/main_table.PNG" style="width:80%; border: 2px solid grey">
 The main results of the experiments for symbolic music generation. Comparison average NLL loss for each model.
 {:.center .larger}
 
