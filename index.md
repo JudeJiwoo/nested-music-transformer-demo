@@ -36,7 +36,7 @@
 {% include icon_link.html text="code" icon=site.icons.code href="https://github.com/JudeJiwoo/nmt" %} &emsp;
 {:.center}
 
-<!-- {% include youtube_player.html id="7g0F0lMs18Y" %} -->
+{% include youtube_player.html id="ebRg4T2A-W0" %}
 
 <hr style="border: double 1.35px silver;">
 ## Content
