@@ -32,7 +32,7 @@
 {:.center}
 
 {% include icon_link.html text="paper" icon=site.icons.paper href="https://arxiv.org/abs/2408.01180.pdf" %} &emsp;
-{% include icon_link.html text="video" icon=site.icons.video href="https://youtu.be/btP0JrSLY1E" %} &emsp;
+{% include icon_link.html text="video" icon=site.icons.video href="https://youtu.be/wBhvJX7Z8hY" %} &emsp;
 {% include icon_link.html text="code" icon=site.icons.code href="https://github.com/JudeJiwoo/nmt" %} &emsp;
 {:.center}
 
